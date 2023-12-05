@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monte Carlo PI Estimation</title>
+  </head>
+  <body>
+    <canvas></canvas>
+    <div class="settings">
+      <table>
+        <tr>
+          <td>Total Pins</td>
+          <td class="total-value"></td>
+        </tr>
+        <tr>
+          <td>Inside Cricle</td>
+          <td class="inside-value"></td>
+        </tr>
+        <tr>
+          <td>π</td>
+          <td class="pi-value"></td>
+        </tr>
+      </table>
+      <div class="controls">
+        <button class="restart">Restart</button>
+        <button class="stop">Play</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
